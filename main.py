@@ -40,7 +40,7 @@ def send_mail(self):
     server.ehlo
     server.starttls()
     server.ehlo()
-    server.login('kamra010101@gmail.com','q l v m f h c b')
+    server.login('kamra010101@gmail.com')
     subject='Курс рубля'
     body='Курс доллара изменился!'
     message=f'Subject:{subject}\n\n{body}'
